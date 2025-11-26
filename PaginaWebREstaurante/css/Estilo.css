@@ -1,0 +1,153 @@
+
+/*Esta sección del estilo se encargará del formato que se utilizará a lo largo de la pagina*/
+
+header{
+    background: linear-gradient(90deg, #3da8ff, #3cfa9b);
+    margin: 15px;
+    align-items: center;
+    margin-left: 40%;
+    margin-right:40%;
+    text-align:center;
+    border-radius: 40px;
+}
+
+nav{
+    background: linear-gradient(45deg, #9cd2f7, #35b5ff);
+    border-radius:  40px;
+}
+
+nav ul {
+    display: inline;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
+    border-radius:  40px;
+}
+
+/* Separa los botones de forma vertical*/
+nav ul li
+{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    display:inline;
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    border-radius:  40px;
+}
+
+/*Fondo de la pagina*/
+body{
+    background-image: url(/imagenesDiseno/Fondosushii.png);
+    background-repeat: repeat;
+    background-size: 450px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+}
+
+section{
+    background: linear-gradient(90deg, #8eff83, #60d7ec);
+    background-size:auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius:  40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*El formato del footer*/
+footer{
+    
+    width: 80%;
+    background-image: url(/imagenesDiseno/suchifooter.jpg);
+    background-size:1100px ;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid #fff8e6;
+    font-size:15px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-radius:  40px;
+    
+}
+
+
+
+
+/*formato de la galeria*/
+
+.tablagaleria {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 260px));
+    gap: 20px;
+}
+
+.tablagaleria .imagen {
+    background: #ffffff;
+    border: 4px solid #256dcc;
+    border-radius: 12px;
+    padding: 40px;
+}
+.tablagaleria img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.tablagaleria img:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+/*formato del menú*/
+
+.tabla-menu {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.25);
+}
+
+/* encabezados */
+.tabla-menu th {
+    background: linear-gradient(180deg, #9cd2f7, #35b5ff);
+    color: #000000;
+    padding: 12px;
+    font-size: 20px;
+    text-align: left;
+    border-bottom: 3px solid #000000;
+    font-weight: bold;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center !important;
+    
+
+}
+
+
+.tabla-menu td {
+    padding: 12px;
+    border-bottom: 2px solid #000000;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #000000;
+    background: #95d8e9;
+}
+
+/* Centrar la imagen*/
+.tabla-menu img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+/* Formato para las filas */
+.tabla-menu tr:nth-child(even) td {
+    background: #b9ffff;  /
+}
